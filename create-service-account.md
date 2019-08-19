@@ -38,5 +38,12 @@ In order to demonstrate RBAC, three [aliases](https://ahmet.im/blog/kubectl-alia
 5. Create account1 alias
 
        alias account1-kubectl='kubectl --token="$(gcloud auth print-access-token --account=$account1)"'
-    
+
+6. Reset the active account to be ready for creating account2.
+
+       gcloud config set account $primary_account
+       
+# 3.Create Account2 alias
+  
+Repeat the above.
     
