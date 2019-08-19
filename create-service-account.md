@@ -51,12 +51,12 @@ Repeat the above.
 
 `admin-kubectl` should be successful as primary email defined above was assigned owner roles in IAM.
 
-    admin-kubectl get nodes
+    >admin-kubectl get nodes
     NAME                                                STATUS   ROLES    AGE   VERSION
     gke-standard-cluster-1-default-pool-29cf725d-lfjx   Ready    <none>   13m   v1.12.8-gke.10
     
 `account1-kubectl` and `account2-kubectl` should return with permission issues
 
-    account1-kubectl get nodes
+    >account1-kubectl get nodes
     Error from server (Forbidden): nodes is forbidden: User "account1@project_ID.iam.gserviceaccount.com" cannot list resource     "nodes" in API group "" at the cluster scope
 
