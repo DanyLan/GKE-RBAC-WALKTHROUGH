@@ -13,7 +13,7 @@ We are going to give permission for account1 to list pods in namespace1.
        
 3. Create a role that will allow account1 to list pods
 
-       a-kubectl create role pod-reader \
+       admin-kubectl create role pod-reader \
            --verb=get \
            --verb=list \
            --verb=watch \
