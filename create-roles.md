@@ -19,3 +19,16 @@ We are going to give permission for account1 to list pods in namespace1.
            --verb=watch \
            --resource=pods \
            --namespace=namespace1
+           
+To view role: admin-kubeclt describe roles pod-reader --namespace=namespace1
+
+4. Create a role bindng to associate role `pod-reader` to acccount1.
+
+       admin-kubectl create rolebinding account1-pod-reader-binding \
+           --role=pod-reader \
+           --user=$account1 \
+           --namespace=namespace1
+           
+5. Try again
+
+       account1-kubectl get pods --namespace=namespace1
