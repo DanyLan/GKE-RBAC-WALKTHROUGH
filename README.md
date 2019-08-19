@@ -4,7 +4,7 @@ While Cloud IAM is a good first level of security for GKE, Role-Based Access Con
 
 # WALKTHROUGH
 
-1. [Create a new cluster](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster)
-2.
-3.
+1. [Create a new cluster](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster) and connect to it.
+2. Create aliases for and admin account and two service accounts.
+3. Create two namespaces.
 4.
