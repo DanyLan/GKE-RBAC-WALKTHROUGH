@@ -25,7 +25,7 @@ In order to demonstrate RBAC, three [aliases](https://ahmet.im/blog/kubectl-alia
 
        account1=$(gcloud iam service-accounts list --format='value(email)' --filter='email:account1')
        
-   Note:Run the following `gcloud iam service-accounts list --format='value(email)' --filter='email:account1'` in order to check whether account1 has the appropriate service account.
+   Note:Run the following `gcloud iam service-accounts list --format='value(email)' --filter='email:account1'` in order to check whether account1 returns the appropriate service account.
 
 3. Create a key for service account
 
