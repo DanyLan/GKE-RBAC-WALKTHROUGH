@@ -1,6 +1,6 @@
 # Create Cluster Roles
 
-We are going to give permission for account to list deployments in all namespaces, that is across the whole cluster.
+We are going to give permission for account1 to list deployments in all namespaces, that is across the whole cluster.
 
 1. Use the `admin-kubeclt` user to install an nginx pod in namespace2. Keep in mind there is already a deployment/pod in namespace1
 
