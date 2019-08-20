@@ -2,7 +2,7 @@
 
 We are going to give permission for account1 to list deployments in all namespaces, that is across the whole cluster.
 
-1. Use the `admin-kubeclt` user to install an nginx pod in namespace2. Keep in mind there is already a deployment/pod in namespace1
+1. Use the `admin-kubectl` user to install an nginx pod in namespace2. Keep in mind there is already a deployment/pod in namespace1
 
        admin-kubectl run nginx --image=nginx --namespace=namespace2
        
