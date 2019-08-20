@@ -22,9 +22,13 @@ We are going to give permission for account to list deployments in all namespace
            --verb=watch \
            --resource=deployments
 
-3. Create a cluster role binding to associate cluster role `deployment-reader` to account1
+4. Create a cluster role binding to associate cluster role `deployment-reader` to account1
 
        admin-kubectl create clusterrolebinding account1-deployment-reader-binding \
            --clusterrole=deployment-reader \
            --user=$account1
-   
+ 
+5. Try again
+
+       account1-kubectl get deployments --namespace=namespace1
+       account1-kubectl get deployments --namespace=namespace2
