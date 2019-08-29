@@ -10,5 +10,3 @@ While Cloud IAM is a good first level of security for GKE, Role-Based Access Con
 4. [Create roles and rolebindings](https://github.com/DanyLan/GKE-RBAC-WALKTHROUGH/blob/master/create-roles.md).
 5. [Create cluster roles and cluster rolebindngs](https://github.com/DanyLan/GKE-RBAC-WALKTHROUGH/blob/master/create-cluster-roles.md).
 
-
-![](https://miro.medium.com/max/1047/1*CdyUtG-8CfGu2oFC5s0KwA.png)Welcome to the GKE-EXPOSE-SERVICES wiki!
